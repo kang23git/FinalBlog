@@ -23,6 +23,6 @@ class AnswerTest extends TestCase
         $answer = factory(\App\Answer::class)->make();
         $answer->user()->associate($user);
         $answer->question()->associate($question);
-        $this->assertTrue($answer->save());
+        $this->assertTrue($answer->save());    
     }
 }
