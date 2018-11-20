@@ -10,7 +10,7 @@ class Answer extends Model
     {
         return $this->belongsTo('App\User');
     }
-    public function question()
+    public function questions()
     {
         return $this->belongsTo('App\Question');
     }
