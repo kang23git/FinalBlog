@@ -1,11 +1,8 @@
 <?php
-
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Question;
 use Illuminate\Support\Facades\Auth;
-
 class QuestionController extends Controller
 {
     public function __construct()
@@ -21,7 +18,6 @@ class QuestionController extends Controller
     {
         //
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -54,7 +50,6 @@ class QuestionController extends Controller
         return redirect()->route('home')->with('message', 'IT WORKS!');
         // return redirect()->route('questions.show', ['id' => $question->id]);
     }
-
     /**
      * Display the specified resource.
      *
@@ -65,7 +60,6 @@ class QuestionController extends Controller
     {
         return view('question')->with('question', $question);
     }
-
     /**
      * Show the form for editing the specified resource.
      *
