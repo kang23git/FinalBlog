@@ -4,7 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Blog</title>
+
+        <!-- Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -64,6 +69,8 @@
         </style>
     </head>
     <body>
+
+
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -79,20 +86,62 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
+            <div class="container">
+                <div class ="row">
+                    <div class="col-md-12">
+                        <div class="jumbotron">
+                            <h1>Welcome to my Blog!!</h1>
+                            <p class="lead">Thank you so much for visiting. Please read popular posts here.</p>
+                            <p><a class="btn btn-primary btn-lg" href="#" role="button">Popular Post</a></p>
+                        </div>
+                    </div>
+                </div> <!-- End of Header Row-->
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="post">
+                            <h2>Post Title</h2>
+                            <p>lorem </p>
+                            <a href="#" class="btn-btn-primary">Read More</a>
+                        </div>
+
+                        <hr>
+
+                        <div class="post">
+                            <h2>Post Title</h2>
+                            <p>lorem </p>
+                            <a href="#" class="btn-btn-primary">Read More</a>
+                        </div>
+
+                        <hr>
+
+                        <div class="post">
+                            <h2>Post Title</h2>
+                            <p>lorem </p>
+                            <a href="#" class="btn-btn-primary">Read More</a>
+                        </div>
+
+                        <hr>
+
+                        <div class="post">
+                            <h2>Post Title</h2>
+                            <p>lorem </p>
+                            <a href="#" class="btn-btn-primary">Read More</a>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <h2>Sidebar</h2>
+                    </div>
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
+            </div><!-- End of Container -->
+
+
         </div>
+    <!-- JavaScript-->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
     </body>
 </html>
