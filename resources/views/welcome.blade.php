@@ -93,6 +93,7 @@
                             <h1>Welcome to my Blog!!</h1>
                             <p class="lead">Thank you so much for visiting. Please read popular posts here.</p>
                             <p><a class="btn btn-primary btn-lg" href="#" role="button">Popular Post</a></p>
+                            <p><a class="btn btn-primary btn-lg" href='{{route('posts.create')}}' role="button">Create Post</a></p>
                         </div>
                     </div>
                 </div> <!-- End of Header Row-->
