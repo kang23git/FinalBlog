@@ -93,6 +93,7 @@
             @include('flash.error')
             @include('flash.messages')
             @include('flash.status')
+            @include('flash.postMessage')
         </div>
         @yield('content')
     </main>
