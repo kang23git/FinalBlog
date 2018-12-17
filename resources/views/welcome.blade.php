@@ -94,46 +94,44 @@
                             <p class="lead">Thank you so much for visiting. Please read popular posts here.</p>
                             <p><a class="btn btn-primary btn-lg" href='{{route('posts.create')}}' role="button">Create Post</a></p>
 
+
                         </div>
                     </div>
                 </div> <!-- End of Header Row-->
 
+
+
+
                 <div class="row">
                     <div class="col-md-8">
                         <div class="post">
-                            <h2>Post Title</h2>
-                            <p>lorem </p>
+                            <h2>Laravel Collective</h2>
+                            <p>Since this package internally uses strict comparisons (=== instead of ==) be carefull when passing numeric values into your forms. Values in HTML are submitted as strings and Laravel old values stored in flash session are strings. </p>
                             <a href="#" class="btn-btn-primary">Read More</a>
                         </div>
 
                         <hr>
 
                         <div class="post">
-                            <h2>Post Title</h2>
-                            <p>lorem </p>
+                            <h2>Laravel Model Accessors</h2>
+                            <p>Laravel's Eloquent Accessor allow you to manipulate a model attribute before returning it. This can be extremely useful for defining global date formats, for example. However, the date format used for display might not match the date format used for form elements.</p>
                             <a href="#" class="btn-btn-primary">Read More</a>
                         </div>
 
                         <hr>
 
                         <div class="post">
-                            <h2>Post Title</h2>
-                            <p>lorem </p>
+                            <h2>Pagination</h2>
+                            <p>lThe pagination component should be wrapped in a <nav> element to identify it as a navigation section to screen readers and other assistive technologies. In addition, as a page is likely to have more than one such navigation section already (such as the primary navigation in the header, or a sidebar navigation), it is advisable to provide a descriptive aria-label for the <nav> which reflects its purpose </p>
                             <a href="#" class="btn-btn-primary">Read More</a>
                         </div>
 
                         <hr>
 
-                        <div class="post">
-                            <h2>Post Title</h2>
-                            <p>lorem </p>
-                            <a href="#" class="btn-btn-primary">Read More</a>
-                        </div>
+
 
                     </div>
-                    <div class="col-md-3 col-md-offset-1">
-                        <h2>Sidebar</h2>
-                    </div>
+
                 </div>
 
             </div><!-- End of Container -->
